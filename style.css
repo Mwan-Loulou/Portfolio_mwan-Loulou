@@ -29,8 +29,8 @@
     top: 0;
     left: 0;
     margin: 30px;
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 29px;
     border-radius: 20px;
     background-color: #d6d7db;
     box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
@@ -40,10 +40,10 @@
 .light-mode-button span:nth-child(2) {
     position: absolute;
     top: 5px;
-    margin: 30px;
+    margin: 27px;
     left: 5px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
@@ -83,7 +83,9 @@ body[light-mode="dark"] .btn-secondary{
     color: #fff !important;
 }  
 
-
+body[light-mode="dark"] #icon_fa{
+    color: #fff !important;
+}
 body[light-mode="dark"] .box{
 
     background-color: linear-gradient(to top,rgb(255, 255, 255) 50%,rgb(0, 0, 0)  white 50%);
@@ -194,6 +196,8 @@ h1 {
     
 }
 
+
+
 .navbar{
     float: right;
 }
@@ -206,12 +210,13 @@ h1 {
      color: white !important;  
 } */
 
-.navbar-light .navbar-toggler{
-    /* border-color: white; */
-}
 
 .navbar-light .navbar-toggler-icon{
     /* color: #fff !important; */
+}
+
+.navbar-light .navbar-toggler-icon {
+    /* background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E); */
 }
 
 
@@ -267,6 +272,7 @@ a{
     padding-left: 50px;
     display: flex;
     padding-top: 5%;
+    padding-right: 15px;
     width: 100%;
 }
 .button{
@@ -782,6 +788,7 @@ footer h3{
         text-align: left;
     }
 
+ 
 }
 
 
@@ -867,7 +874,7 @@ footer h3{
 
 @media (min-width:319px) and (max-width: 480px) {
     h2{
-        font-size: 29px;
+        font-size: 25px;
     }
 
  
@@ -917,6 +924,7 @@ footer h3{
     }
     p {
         font-size: 15px;
+        margin: 10px;
     }
 
     .acueil .box-text{
